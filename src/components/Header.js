@@ -1,0 +1,20 @@
+// src/components/Header.js
+import React from 'react';
+
+function Header({ title }) {
+  return (
+    <header className="App-header">
+      <h1 className="header-title">{title}</h1>
+      <nav className="navbar">
+        <ul className="nav-list">
+          <li><a href="#about" className="nav-link">About</a></li>
+          <li><a href="#projects" className="nav-link">Projects</a></li>
+          <li><a href="#skills" className="nav-link">Skills</a></li>
+          <li><a href="#contact" className="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default Header;

@@ -1,0 +1,27 @@
+/* src/fonts.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* Add any custom font-face rules if necessary */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('path-to-your-font.woff2') format('woff2'),
+       url('path-to-your-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply font to body and headings */
+body {
+  font-family: 'Roboto', sans-serif; /* Default font for body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+}
+
+/* Additional font-specific rules */
+.code {
+  font-family: 'Courier New', Courier, monospace; /* For code blocks */
+}
